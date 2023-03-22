@@ -24,11 +24,11 @@ reqURL <- 'https://api.twitter.com/oauth/request_token'
 accessURL <- 'https://api.twitter.com/oauth/access_token'
 authURL <- 'https://api.twitter.com/oauth/authorize'
 
-### Twitter Application
-consumerKey="JhgqXWTJcUUIanhL5PGZndtgt"
-consumerSecret="JPyI4cm3yEtSPNODKSefV58SmjiS3ybq8xav3D80F0GDd0jCpK"
-accesstoken="4801685942-YJ0itSN5kTUWtAI8bL4DR2R6dC9TYwcjFMHIiL8"
-accesssecret="ZCAKUxqAYAeQizVHAszTIHkYf4KjL8e9K2FTjEnWspaJd"
+### Twitter Application insert my keys and tokens here
+consumerKey=""
+consumerSecret=""
+accesstoken=""
+accesssecret=""
 
 Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
